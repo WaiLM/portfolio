@@ -296,6 +296,66 @@ main {
   background-image: url('../images/work-brand-2.png');
 }
 
+/*  Digital ---------------------------------- MODAL ---------------------------------- */
+
+/*  gods grip */
+#image-link-12 {
+  background-image: url('../images/work-gods-1.jpg');
+}
+
+#image-link-13 {
+  background-image: url('../images/work-gods-2.jpg');
+}
+
+#image-link-14 {
+  background-image: url('../images/work-gods-3.jpg');
+}
+
+#image-link-15 {
+  background-image: url('../images/work-gods-4.jpg');
+}
+
+
+/*  study buddy */
+
+#image-link-16 {
+  background-image: url('../images/work-study-1.jpg');
+}
+
+#image-link-17 {
+  background-image: url('../images/work-study-2.jpg');
+}
+
+#image-link-18 {
+  background-image: url('../images/work-study-3.jpg');
+}
+
+/*  tripal */
+
+#image-link-19 {
+  background-image: url('../images/work-tripal-1.jpg');
+}
+
+#image-link-20 {
+  background-image: url('../images/work-tripal-2.jpg');
+}
+/*  abc */
+#image-link-22 {
+  background-image: url('../images/work-abc-1.jpg');
+}
+/*  socials */
+#image-link-21 {
+  background-image: url('../images/work-socials-1.jpg');
+}
+/*  abc */
+#image-link-23 {
+  background-image: url('../images/work-abc-2.jpg');
+}
+
+#image-link-24 {
+  background-image: url('../images/work-abc-3.jpg');
+}
+
 .secondary-button {
   background-color: white;
   color: var(--primaryColor);
