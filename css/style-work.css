@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+      
     /* HIDDEN
-      border: 3px solid green;
+border: 3px solid green;
     box-shadow: 0px 0px 4px #C4C4C4;
 */
   }
@@ -228,13 +228,20 @@ main {
   justify-content: flex-start;
   padding: 0;
 }
+.project-copy {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .project-title {
-  width: 100%;
-  grid-column: span 12;
+  width: 80%;
   text-align: center;
   padding-bottom: 0.05rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .project-image {
@@ -246,19 +253,35 @@ main {
 }
 
 #image-link-1 {
-  background-image: url('../images/print_folio_1.jpg');
+  background-image: url('../images/work-print-1.jpg');
 }
 
 #image-link-2 {
-  background-image: url('../images/print_folio_2.jpg');
+  background-image: url('../images/work-print-2.jpg');
 }
 
 #image-link-3 {
-  background-image: url('../images/print_folio_3.jpg');
+  background-image: url('../images/work-print-3.jpg');
 }
 
 #image-link-4 {
-  background-image: url('../images/print_folio_4.jpg');
+  background-image: url('../images/work-print-4.jpg');
+}
+
+#image-link-5 {
+  background-image: url('../images/work-print-5.jpg');
+}
+
+#image-link-6 {
+  background-image: url('../images/work-print-6.jpg');
+}
+
+#image-link-7 {
+  background-image: url('../images/work-print-7.jpg');
+}
+
+#image-link-8 {
+  background-image: url('../images/work-print-8.jpg');
 }
 
 .secondary-button {
