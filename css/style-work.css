@@ -288,6 +288,14 @@ main {
   background-image: url('../images/work-print-11.jpg');
 }
 
+#image-link-10 {
+  background-image: url('../images/work-brand-1.png');
+}
+
+#image-link-11 {
+  background-image: url('../images/work-brand-2.png');
+}
+
 .secondary-button {
   background-color: white;
   color: var(--primaryColor);
