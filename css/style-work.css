@@ -229,7 +229,7 @@ main {
   padding: 0;
 }
 
-.card-copy {
+.project-title {
   width: 100%;
   grid-column: span 12;
   text-align: center;
@@ -237,7 +237,7 @@ main {
   padding-top: 5rem;
 }
 
-.card-image {
+.project-image {
   grid-column: span 12;
   min-height: 600px;
   background-size: contain;
