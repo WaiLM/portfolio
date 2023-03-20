@@ -277,11 +277,15 @@ main {
 }
 
 #image-link-7 {
-  background-image: url('../images/work-print-7.jpg');
+  background-image: url('../images/work-print-9.jpg');
 }
 
 #image-link-8 {
-  background-image: url('../images/work-print-8.jpg');
+  background-image: url('../images/work-print-10.jpg');
+}
+
+#image-link-9 {
+  background-image: url('../images/work-print-11.jpg');
 }
 
 .secondary-button {
