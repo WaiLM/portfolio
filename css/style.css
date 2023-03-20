@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 
-    /* HIDDEN    border: 3px solid green;
+
+    /* HIDDEN     border: 3px solid green;
   */
   }
 
@@ -151,7 +152,8 @@ nav {
   }
 
 .emptydiv {
-  min-width: 16px;
+  min-width: 30px;
+  height: 10px
 }
 
 .navLinks {
@@ -432,7 +434,6 @@ main {
 
 #about-me-section ul {
   list-style: none;
-
 }
 
 #about-me-section .skills {
@@ -446,7 +447,7 @@ main {
 .skills-list {
   font-family: var(--secondaryFont);
   font-size: 1rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   line-height: 1.5rem;
   color: var(--text-color);
 }
@@ -575,6 +576,10 @@ footer {
 
 @media only screen and (max-width: 960px) {
 
+  #wailogo {
+max-height: 30px;
+    }
+
   #hero {
     height: auto;}
 
@@ -618,16 +623,6 @@ footer {
   #right-about-me {
     grid-column: span 12;
     gap: 4rem;}
-}
-
-  #getintouch {
-    font-size: 3.5rem;
-    letter-spacing: 0px;
-  }
-
-  .skills-list {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 
