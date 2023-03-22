@@ -254,17 +254,18 @@ main {
 
 .head {
   width: 100%;
-  min-height: 600px;
+  min-height: 500px;
   margin: 0px auto;
   padding: var(--main-margin);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1.5rem;
   background-color: #F5F8FF;
-  background-image: url(../images/tripal-syd-bkgrd.jpg);
+  background-image: url(../images/tripal-hero-insitu.jpg);
   background-size: cover;
   background-position: bottom;
 }
+
 
 #head-title {
   grid-column: span 12;
@@ -306,8 +307,13 @@ main {
   background-position: center;
 }
 
+/* ------------------------------------------------*/
+/* ------------------IMAGES------------------------*/
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+
 #image-link-1 {
-  background-image: url('../images/tripal-1.jpg');
+  background-image: url('../images/tripal-hero-3phones.png');
 }
 
 
