@@ -250,11 +250,11 @@ nav {
   font-size: 1.3rem;
 }
 
-.primary-button {
+.button {
   background-color: var(--primaryColor);
   color: white;
-  padding: 0.5rem 3rem;
-  border-radius: 0.5rem;
+  padding: 0.4rem 3rem;
+  border-radius: 1rem;
   font-size: 1.125rem;
   text-decoration: none;
   border-style: none;
@@ -262,11 +262,11 @@ nav {
   transition: var(--motion-2);
 }
 
-button:hover {
+.button:hover {
   background-color: var(--primaryColor-dark);
 }
 
-button:active {
+.button:active {
   background-color: var(--primaryColor-light);
   transition: var(--motion-1);
 }
