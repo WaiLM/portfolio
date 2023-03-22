@@ -92,8 +92,8 @@
 
   h8 {
     font-family: var(--primaryFont);
-    font-weight: 400;
-    font-size: 4rem;
+    font-weight: 380;
+    font-size: 2.5rem;
     color: var(--text-color);
     padding: 10px 0 10px 0;
   }
@@ -182,15 +182,15 @@ nav {
 #topbtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 350px; /* Place the button at the bottom of the page */
+  bottom: 30px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 151; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: var(--primaryColor); /* Set a background color */
+  background-color: var(--clr-primary); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 0.5rem 3rem; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
@@ -209,8 +209,7 @@ nav {
   color: var(--primaryColor)
 }
 
-
-.primary-button {
+.button {
   background-color: var(--primaryColor);
   color: white;
   padding: 0.5rem 3rem;
@@ -249,8 +248,9 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   padding: 0;
-  background-color: #ff8497;
 }
+
+
 
 .head {
   width: 100%;
@@ -307,12 +307,41 @@ main {
   background-position: center;
 }
 
+.container-3rows {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-rows {
+  flex: 50%;
+  min-height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+
 /* ------------------------------------------------*/
 /* ------------------IMAGES------------------------*/
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
 
 #image-link-1 {
+  background-image: url('../images/tripal-hero-3phones.png');
+}
+
+#image-link-2 {
+  background-image: url('../images/tripal-hero-3phones.png');
+}
+
+#image-link-3 {
+  background-image: url('../images/tripal-hero-3phones.png');
+}
+
+#image-link-4 {
   background-image: url('../images/tripal-hero-3phones.png');
 }
 
