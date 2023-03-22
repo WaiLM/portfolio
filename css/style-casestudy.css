@@ -321,7 +321,7 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 10px;
+
 }
 
 /* ------------------------------------------------*/
@@ -334,15 +334,31 @@ main {
 }
 
 #image-link-2 {
-  background-image: url('../images/tripal-hero-3phones.png');
+  background-image: url('../images/tripal-1.png');
 }
 
 #image-link-3 {
-  background-image: url('../images/tripal-hero-3phones.png');
+  background-image: url('../images/tripal-2.png');
 }
 
 #image-link-4 {
-  background-image: url('../images/tripal-hero-3phones.png');
+  background-image: url('../images/tripal-3.png');
+}
+
+#image-link-5 {
+  background-image: url('../images/tripal-4.png');
+}
+
+#image-link-6 {
+  background-image: url('../images/tripal-persona.png');
+}
+
+#image-link-7 {
+  background-image: url('../images/tripal-user-insights.png');
+}
+
+#image-link-8 {
+  background-image: url('../images/work-tripal-1.jpg');
 }
 
 
