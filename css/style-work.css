@@ -252,6 +252,14 @@ main {
   background-position: center;
 }
 
+.project-image-godsgrip {
+  grid-column: span 12;
+  min-height: 1200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #image-link-1 {
   background-image: url('../images/work-print-1.jpg');
 }
