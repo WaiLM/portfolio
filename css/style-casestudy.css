@@ -250,8 +250,6 @@ main {
   padding: 0;
 }
 
-
-
 .head {
   width: 100%;
   min-height: 500px;
@@ -265,7 +263,6 @@ main {
   background-size: cover;
   background-position: bottom;
 }
-
 
 #head-title {
   grid-column: span 12;
@@ -281,6 +278,7 @@ main {
 }
 .margin30px {
   margin: 0 4rem;
+  color: #3A3EC2;
 }
 
 .project-head {
@@ -293,6 +291,7 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   margin: 20rem o;
+  padding-top: 5rem;
 }
 
 .project-title {
@@ -343,11 +342,11 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #C9D2F0;
-  padding: 1rem;
+  padding: 0px;
   border-radius: 2rem;
 }
 
-.copy-box {
+.copy-container {
   flex: 20%;
   height: auto;
   display: flex;
@@ -355,28 +354,41 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #C9D2F0;
-  padding: 2rem;
-  border-radius: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
-.img-box {
+.img-container {
+  flex: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.img-container-center {
   flex: 20%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  background-color: #65a35a;
+  align-items: center;
   padding: 2rem;
   border-radius: 2rem;
 }
 
 .box-img {
-  min-height: 600px;
+  min-width: 100%;
+  min-height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 
 /* ------------------------------------------------*/
 /* ------------------IMAGES------------------------*/
@@ -423,7 +435,13 @@ main {
   background-image: url('../images/tripal-user-journey.png');
 }
 
+#image-link-11 {
+  background-image: url('../images/tripal-persona-2.png');
+}
 
+#image-link-12 {
+  background-image: url('../images/tripal-persona-3.png');
+}
 
 .secondary-button {
   background-color: white;
