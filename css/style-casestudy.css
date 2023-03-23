@@ -279,6 +279,9 @@ main {
   margin: 2rem 0;
   list-style: none;
 }
+.margin30px {
+  margin: 0 4rem;
+}
 
 .project-head {
   grid-column: span 12;
@@ -299,6 +302,13 @@ main {
   padding: o, 5rem;
 }
 
+.project-title-span12 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.05rem;
+  padding: o, 5rem;
+}
+
 .project-image {
   grid-column: span 12;
   min-height: 600px;
@@ -313,15 +323,59 @@ main {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .box-rows {
   flex: 50%;
-  min-height: 300px;
+  min-height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
 
+.process-box {
+  margin: 20px 0;
+  flex: 20%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #C9D2F0;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.copy-box {
+  flex: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #C9D2F0;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.img-box {
+  flex: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #65a35a;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.box-img {
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* ------------------------------------------------*/
