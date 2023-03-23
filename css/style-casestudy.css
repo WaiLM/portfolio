@@ -92,7 +92,7 @@
 
   h8 {
     font-family: var(--primaryFont);
-    font-weight: 380;
+    font-weight: lighter;
     font-size: 2.5rem;
     color: var(--text-color);
     padding: 10px 0 10px 0;
