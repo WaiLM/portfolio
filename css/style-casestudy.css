@@ -646,55 +646,127 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
 
-}
-
-
-
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-
-nav {
-  padding: 1rem 24px;}  
-
-.navLinks a {
-  display: none;} 
-
-nav #burger {
-  display: inherit;}  
-
-.linkedIn {
-  display: none;} 
+  #wailogo {
+max-height: 30px;
+    }
+    #about-me {
+      font-size: 3.5rem;
+      letter-spacing: -2px;
+    }
   
-.section-header {
-  padding: 24px;}
-
-#card {
-  grid-column: span 12;
-  height: auto;
-  }
-
-footer {  
-  padding: 36px 24px;}
- 
-#left-contact {
-  grid-column: span 12;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
+    #getintouch {
+      font-size: 3.5rem;
+      letter-spacing: -2px;
+    }
   
-#right-contact {
-  grid-column: span 12;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    #about-me-section .skills {
+      padding-top: 1rem;}
+    
+    .tools {
+      padding-top: 1rem;}
+    
+    #left-about-me {
+      grid-column: span 12;}
+    
+    #right-about-me {
+      grid-column: span 12;
+      gap: 4rem;}
+  
+    #about-me-section .skills {
+      padding-top: 1rem;}
+    
+    .tools {
+      padding-top: 1rem;}
+    
+    #left-about-me {
+      grid-column: span 12;}
+    
+    #right-about-me {
+      grid-column: span 12;
+      gap: 4rem;}
   }
   
-main {
-  padding: 24px;}
-}
-
-/* scriptcity */
+  .contact-list {
+    grid-column: span 12;}
+  
+  footer {  
+    padding: 36px 24px;}
+   
+    #left-contact {
+      grid-column: span 12;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  #right-contact {
+      grid-column: span 12;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  #right-contact {
+      grid-column: span 12;
+      justify-content: center;
+      padding-bottom: 1rem;
+      }
+  
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  
+  @media only screen and (max-width: 600px) {
+  
+  nav {
+    padding: 1rem 24px;}  
+  
+  .navLinks a {
+    display: none;} 
+  
+  nav #burger {
+    display: inherit;}  
+  
+  .linkedIn {
+    display: none;} 
+  
+  #Hello {
+      font-size: 3.5rem;
+      letter-spacing: -2.5px;
+      padding: 40px 24px 0 24px;
+    }
+  
+  #hero {
+    height: auto;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--background);}
+    
+  #hero .left {
+    grid-column: span 12;
+    gap: 1rem;}
+  
+  #hero .right {
+    grid-column: span 12;
+    transform: translateY(0);
+    min-height: 60vh;
+    }
+    
+  .section-header {
+    padding: 24px;}
+  
+    #card {
+      grid-column: span 12;
+      height: auto;}
+  
+  #about-me-section {
+    padding: 36px 24px;}  
+  
+  main {
+    padding: 24px;}
+  }
+  
+  /* scriptcity */
