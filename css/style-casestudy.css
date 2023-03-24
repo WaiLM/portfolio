@@ -278,7 +278,6 @@ main {
 }
 .margin30px {
   margin: 0 10rem;
-  color: #3A3EC2;
   text-align: center;
 }
 
@@ -327,23 +326,25 @@ main {
   margin-top: 1rem;
 }
 
-.container-flexrows {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 4rem;
-  padding: 0 4rem;
-    border: 3px solid salmon;
-}
-
 .box-rows {
-  flex: 50%;
+  flex: 100%;
   min-height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.statement-box {
+  margin: 20px 0;
+  flex: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F8FF;
+  padding: 50px;
+  border-radius: 2rem;
 }
 
 .process-box {
@@ -366,6 +367,7 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 2rem 0;
   padding: 1rem;
   border-radius: 0.5rem;
 }
@@ -400,17 +402,43 @@ main {
   background-position: center;
 }
 
+.container-flexrows {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 4rem;
+}
+
 .persona-container {
+  grid-column: span 12;
   flex: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #F5F8FF
 }
 
+.persona-list {
+  list-style: none;
+}
+
+.bio-list {
+  list-style: none;
+  font-family: var(--secondaryFont);
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color: var(--text-color);
+  padding-top: 1rem;
+}
 
 
 
@@ -465,6 +493,10 @@ main {
 
 #image-link-12 {
   background-image: url('../images/tripal-persona-3.png');
+}
+
+#image-link-14 {
+  background-image: url('../images/work-tripal-3.jpg');
 }
 
 .secondary-button {
