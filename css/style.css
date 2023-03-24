@@ -560,6 +560,7 @@ footer {
 }
 
 /* media queries --------------------------*/
+/* media queries --------------------------*/
 
 @media screen and (min-width: 1200px) {
 
@@ -598,6 +599,11 @@ max-height: 30px;
     letter-spacing: -2px;
   }
 
+  #getintouch {
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+  }
+
   #about-me-section .skills {
     padding-top: 1rem;}
   
@@ -624,6 +630,32 @@ max-height: 30px;
     grid-column: span 12;
     gap: 4rem;}
 }
+
+.contact-list {
+  grid-column: span 12;}
+
+footer {  
+  padding: 36px 24px;}
+ 
+  #left-contact {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+#right-contact {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+#right-contact {
+    grid-column: span 12;
+    justify-content: center;
+    padding-bottom: 1rem;
+    }
 
 
 
@@ -675,32 +707,6 @@ nav #burger {
 
 #about-me-section {
   padding: 36px 24px;}  
-
-.contact-list {
-  grid-column: span 12;}
-
-footer {  
-  padding: 36px 24px;}
- 
-  #left-contact {
-    grid-column: span 12;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #right-contact {
-    grid-column: span 12;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-#right-contact {
-    grid-column: span 12;
-      justify-content: center;
-      padding-bottom: 1rem;
-    }
 
 main {
   padding: 24px;}
