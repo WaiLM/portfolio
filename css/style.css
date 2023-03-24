@@ -293,7 +293,7 @@ main {
   grid-column: span 6;
   min-height: 600px;
   min-width: 400px;
-  box-shadow: 0px 0px 4px #C4C4C4;
+  border: 1px solid var(--text-light);
   border-radius: 0.5rem;
   display:flex;
   flex-direction: column;
