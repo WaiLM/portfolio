@@ -20,6 +20,7 @@ border: 3px solid green;
   h1 {
     font-family: var(--primaryFont);
     color: var(--text-color);
+    font-weight: 500;
     font-size: 80px;
     letter-spacing: -2px;
   }
