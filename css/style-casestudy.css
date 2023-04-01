@@ -360,6 +360,18 @@ main {
   border-radius: 2rem;
 }
 
+.statement-box-blank {
+  margin: 20px 0;
+  flex: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 2rem;
+}
+
 .process-box {
   margin: 20px 0;
   flex: 20%;
