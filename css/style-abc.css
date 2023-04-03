@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-border: 3px solid green;
+
     /* HIDDEN
     border: 3px solid green;
     box-shadow: 0px 0px 4px #C4C4C4;
@@ -355,7 +355,7 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #F5F8FF;
+  background-color: #FEF2C6;
   padding: 50px;
   border-radius: 2rem;
 }
@@ -374,13 +374,13 @@ main {
 
 .process-box {
   margin: 20px 0;
-  flex: 20%;
+  flex: 10%;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #C9D2F0;
+  background-color: #FEF2C6;
   padding: 0px;
   border-radius: 2rem;
 }
@@ -403,7 +403,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
   padding: 1rem;
 }
@@ -417,6 +417,7 @@ main {
   align-items: center;
   padding: 2rem;
   border-radius: 2rem;
+  gap: 2rem;
 }
 
 .box-img {
@@ -448,7 +449,7 @@ main {
   margin-top: 4rem;
   padding: 2rem;
   border-radius: 1rem;
-  background-color: #F5F8FF
+  background-color: #FFF8E0
 }
 
 .persona-list {
@@ -493,11 +494,15 @@ main {
 }
 
 #image-link-6 {
-  background-image: url('../images/tripal-persona.png');
+  background-image: url('../images/abc-persona-richard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
 }
 
 #image-link-7 {
-  background-image: url('../images/tripal-user-insights.png');
+  background-image: url('../images/abc-user-insights.png');
 }
 
 #image-link-8 {
@@ -513,11 +518,11 @@ main {
 }
 
 #image-link-11 {
-  background-image: url('../images/tripal-persona-2.png');
+  background-image: url('../images/abc-motivations.png');
 }
 
 #image-link-12 {
-  background-image: url('../images/tripal-persona-3.png');
+  background-image: url('../images/abc-demographics.png');
 }
 
 #image-link-14 {
@@ -525,7 +530,7 @@ main {
 }
 
 #image-link-15 {
-  background-image: url('../images/tripal-sky-bkgrd.jpg');
+  background-image: url('../images/herocard-abc-1.jpg');
 }
 
 .secondary-button {
