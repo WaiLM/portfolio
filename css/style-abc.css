@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
     /* HIDDEN
     border: 3px solid green;
     box-shadow: 0px 0px 4px #C4C4C4;
@@ -289,6 +288,7 @@ main {
   margin: 2rem 0;
   list-style: none;
 }
+
 .margin30px {
   margin: 0 4rem;
   text-align: center;
@@ -304,7 +304,7 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   margin: 20rem o;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .project-title {
@@ -447,7 +447,7 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 4rem;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
   border-radius: 1rem;
   background-color: #FFF8E0
 }
@@ -467,6 +467,35 @@ main {
 }
 
 
+.container-2col {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+.side-text {
+  padding-right: 2rem;
+  flex: 0 30%;
+}
+.image-box70 {
+	flex: 0 70%;
+}
+.stacked-copy {
+  padding-bottom: 1.5rem;
+  font-family: var(--secondaryFont);
+  line-height: 1.8rem;
+  color: var(--text-color);
+  font-size: 1.2rem;
+} 
+
+.image-box50 {
+	flex: 0 50%;
+  padding-right: 5rem;
+}
+
 
 /* ------------------------------------------------*/
 /* ------------------IMAGES------------------------*/
@@ -474,15 +503,27 @@ main {
 /* ------------------------------------------------*/
 
 #image-link-1 {
-  background-image: url('../images/tripal-hero-3phones.jpg');
+  background-image: url('../images/herocard-abc-1.jpg');
 }
 
 #image-link-2 {
-  background-image: url('../images/tripal-1.png');
+  background-image: url('../images/abc-heuristic.png');
+width: auto;
+height: 100%;
+min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 #image-link-3 {
-  background-image: url('../images/tripal-2.png');
+  background-image: url('../images/abc-info-architecture.png');
+  width: auto;
+height: 100%;
+min-height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 #image-link-4 {
@@ -506,11 +547,11 @@ main {
 }
 
 #image-link-8 {
-  background-image: url('../images/work-tripal-1.jpg');
+  background-image: url('../images/work-abc-2.jpg');
 }
 
 #image-link-9 {
-  background-image: url('../images/work-tripal-2.jpg');
+  background-image: url('../images/work-abc-3.jpg');
 }
 
 #image-link-10 {
@@ -677,33 +718,18 @@ footer {
 
 #wailogo {
   max-height: 30px;}
-    
-#hero {
+
+.box-rows {
+  flex: 100%;
   width: 100%;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: var(--main-margin);
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1.5rem;
-  max-height: 900px;}
+  height: auto;
+  }
 
-#hero .left {
-    grid-column: span 12;
-    padding-top: 24px;
-    padding-bottom: 24px;}
-
-#hero .right {
-  grid-column: span 12;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 0;
-}
-
-#hero-img {
-  width: 100%;
-  min-height: 400px;}
+#image-link-3, #image-link-2, #image-link-7 {
+  width: auto;
+  height: 100%;
+  min-height: 400px;
+  margin-bottom: 2rem;
 
 #about-me {
     font-size: 3.5rem;
@@ -769,6 +795,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+.side-text, .image-box70, .image-box50 {
+  flex: 0 100%;}
+
 nav {
   padding: 1rem 24px;}  
 
@@ -781,35 +810,11 @@ nav #burger {
 .linkedIn {
   display: none;} 
 
-#Hello {
-    font-size: 3.5rem;
-    letter-spacing: -2.5px;
-    padding: 40px 24px 0 24px;
-  }
-
-#hero {
-  height: auto;
-  padding: 24px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  background-color: var(--background);}
-  
-#hero .left {
-  grid-column: span 12;
-  gap: 1rem;}
-
-#hero .right {
-  grid-column: span 12;
-  transform: translateY(0);
-  min-height: 60vh;
-  }
+.container-3rows {
+  justify-content: flex-start;}
   
 .section-header {
   padding: 24px;}
-
-  #card {
-    grid-column: span 12;
-    height: auto;}
 
 #about-me-section {
   padding: 36px 24px;}  
