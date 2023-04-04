@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 3px solid green;
     /* HIDDEN
     border: 3px solid green;
     box-shadow: 0px 0px 4px #C4C4C4;
@@ -502,6 +503,14 @@ main {
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
 
+.video-box {
+  grid-column: span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #image-link-1 {
   background-image: url('../images/herocard-abc-1.jpg');
 }
@@ -730,7 +739,7 @@ footer {
   height: 100%;
   min-height: 400px;
   margin-bottom: 2rem;
-
+}
 #about-me {
     font-size: 3.5rem;
     letter-spacing: -2px;}
