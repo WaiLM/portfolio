@@ -337,23 +337,22 @@ main {
   background-position: center;
 }
 
-.project-image-500 {
+.project-image-600 {
   min-width: 100%;
-  height: auto;
-  min-height: 500px;
+  min-height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top left;
 }
 
 .project-image-800 {
   min-width: 100%;
-  height: auto;
-  min-height: 800px;
+  min-height: 900px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top left;
 }
+
 .container-3rows {
   grid-column: span 12;
   display: flex;
@@ -619,6 +618,18 @@ main {
 
 #image-link-17 {
   background-image: url('../images/abc-design-home.jpg');
+}
+
+#image-link-18 {
+  background-image: url('../images/abc-og-news.jpg');
+}
+
+#image-link-19 {
+  background-image: url('../images/abc-design-news.jpg');
+}
+
+#image-link-20 {
+  background-image: url('../images/abc-design-dropdown.jpg');
 }
 
 
