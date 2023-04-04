@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 3px solid green;
+
     /* HIDDEN
     border: 3px solid green;
     box-shadow: 0px 0px 4px #C4C4C4;
@@ -517,9 +517,9 @@ main {
 
 #image-link-2 {
   background-image: url('../images/abc-heuristic.png');
-width: auto;
-height: 100%;
-min-height: 600px;
+  width: auto;
+  height: 100%;
+  min-height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -528,19 +528,25 @@ min-height: 600px;
 #image-link-3 {
   background-image: url('../images/abc-info-architecture.png');
   width: auto;
-height: 100%;
-min-height: 800px;
+  height: 100%;
+  min-height: 800px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
 }
 
 #image-link-4 {
-  background-image: url('../images/tripal-3.png');
+  background-image: url('../images/abc-style-1.png');
+  width: 100%;
+  height: auto;
+  min-height: 1900px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 #image-link-5 {
-  background-image: url('../images/tripal-4.png');
+  background-image: url('../images/');
 }
 
 #image-link-6 {
@@ -576,7 +582,7 @@ min-height: 800px;
 }
 
 #image-link-14 {
-  background-image: url('../images/work-tripal-3.jpg');
+  background-image: url('../images/');
 }
 
 #image-link-15 {
@@ -734,12 +740,38 @@ footer {
   height: auto;
   }
 
+.side-text {
+  padding-right: 0rem;
+  flex: 0 100%;
+  }
+  .image-box70 {
+    flex: 0 100%;
+  }
+  
+  .image-box50 {
+    flex: 0 100%;
+    padding-right: 0;
+  }
+
 #image-link-3, #image-link-2, #image-link-7 {
   width: auto;
   height: 100%;
   min-height: 400px;
   margin-bottom: 2rem;
 }
+
+#image-link-4 {
+  width: auto;
+  height: 100%;
+  min-height: 800px;
+  margin-bottom: 2rem;
+}
+
+.project-copy {
+  margin: o;
+  padding-top: 2rem;
+}
+
 #about-me {
     font-size: 3.5rem;
     letter-spacing: -2px;}
