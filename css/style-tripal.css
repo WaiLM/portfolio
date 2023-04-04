@@ -536,6 +536,10 @@ main {
   background-image: url('../images/tripal-sky-bkgrd.jpg');
 }
 
+#image-link-16 {
+  background-image: url('../images/tripal-hero-3phones_2sml.png');
+}
+
 .secondary-button {
   background-color: white;
   color: var(--primaryColor);
