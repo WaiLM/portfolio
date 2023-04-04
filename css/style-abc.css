@@ -238,7 +238,6 @@ button:active {
 /* Portfolio Section */
 
 .full-hero {
-  grid-column: span 12;
   min-height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -512,7 +511,7 @@ main {
 
 
 #image-link-1 {
-  background-image: url('../images/herocard-abc-1.jpg');
+  background-image: url('../images/abc-hero-bkgrd.jpg');
 }
 
 #image-link-2 {
@@ -546,7 +545,7 @@ main {
 }
 
 #image-link-5 {
-  background-image: url('../images/');
+  background-image: url('../images/abc-hero-mockup.png');
 }
 
 #image-link-6 {
