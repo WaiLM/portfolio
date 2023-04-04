@@ -98,6 +98,14 @@
     color: var(--text-color);
     padding: 10px 0 10px 0;
   }
+
+  h9 {
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: var(--text-color);
+  }
   
 
   li {
@@ -189,11 +197,12 @@ nav {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   color: white; /* Text color */
-  background-color: #fb3f5c;
+  background-color: #565354;
+  opacity: 0.8;
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 1rem 3rem; /* Some padding */
-  border-radius: 4rem; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  padding: 0.5rem 1rem; /* Some padding */
+  border-radius: 2rem; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
 }
 
 #topbtn:hover{  
@@ -322,13 +331,29 @@ main {
 }
 
 .project-image {
-  grid-column: span 12;
   min-height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.project-image-500 {
+  min-width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.project-image-800 {
+  min-width: 100%;
+  height: auto;
+  min-height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .container-3rows {
   grid-column: span 12;
   display: flex;
@@ -587,6 +612,15 @@ main {
 #image-link-15 {
   background-image: url('../images/herocard-abc-1.jpg');
 }
+
+#image-link-16 {
+  background-image: url('../images/abc-og-home.jpg');
+}
+
+#image-link-17 {
+  background-image: url('../images/abc-design-home.jpg');
+}
+
 
 .secondary-button {
   background-color: white;
