@@ -501,7 +501,7 @@ main {
   }
 
 .side-text {
-  padding-right: 2rem;
+  padding-left: 2rem;
   flex: 0 30%;
 }
 .image-box70 {
@@ -525,6 +525,10 @@ main {
 /* ------------------IMAGES------------------------*/
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
+
+.abc-mp4 {
+  max-width: 600px;
+}
 
 .video-box {
   grid-column: span 12;
@@ -574,10 +578,6 @@ main {
 
 #image-link-6 {
   background-image: url('../images/abc-persona-richard.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
 }
 
 #image-link-7 {
@@ -793,7 +793,8 @@ footer {
   }
 
 .side-text {
-  padding-right: 0rem;
+  padding-top: 2rem;
+  padding-left: 0rem;
   flex: 0 100%;
   }
   .image-box70 {
